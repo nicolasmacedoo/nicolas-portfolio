@@ -23,27 +23,27 @@ import {
 const about = {
   title: 'Sobre mim',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluiptates quibusdam, sunt explicabo inventore.',
+    'Sou um desenvolvedor backend apaixonado por criar soluções eficientes e escaláveis. Sempre em busca de evolução, mantenho-me atualizado com as tendências do setor e aprimoro constantemente minhas habilidades. Destaco-me pela comunicação clara, capacidade de resolução de problemas e comprometimento com resultados de alta qualidade.',
   info: [
     {
-      fieldName: 'Name',
+      fieldName: 'Nome',
       fieldValue: 'Nicolas Macedo',
     },
     {
-      fieldName: 'Phone',
-      fieldValue: '+55 11 99999-9999',
+      fieldName: 'Telefone',
+      fieldValue: '+55 11 91355-7997',
     },
     {
-      fieldName: 'Experience',
-      fieldValue: '2+ Years',
+      fieldName: 'Experiência',
+      fieldValue: '2+ Anos',
     },
     {
       fieldName: 'Skype',
       fieldValue: 'nicolas.01',
     },
     {
-      fieldName: 'Nationality',
-      fieldValue: 'Brazilian',
+      fieldName: 'Nacionalidade',
+      fieldValue: 'Brasileiro',
     },
     {
       fieldName: 'Email',
@@ -51,97 +51,72 @@ const about = {
     },
     {
       fieldName: 'Freelance',
-      fieldValue: 'Available',
+      fieldValue: 'Disponível',
     },
     {
-      fieldName: 'Languages',
-      fieldValue: 'Portuguese, English',
+      fieldName: 'Idiomas',
+      fieldValue: 'Português, Inglês',
     },
   ],
 }
 
 const experience = {
-  icon: '/assets/resume/basge.svg',
-  title: 'My experience',
+  icon: '/assets/resume/badge.svg',
+  title: 'Minhas experiências',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluiptates quibusdam, sunt explicabo inventore.',
+    'Com experiência sólida em desenvolvimento de software, concentro meus esforços na criação de soluções inovadoras e eficientes para atender às necessidades de negócios.',
   items: [
     {
-      company: 'Tech Solutions Inc.',
-      position: 'Full Stack Developer',
-      duration: '2022 - Present',
+      company: 'TOTVS',
+      position: 'Analista Suporte Técnico',
+      duration: 'Mar 2022 - Presente',
     },
     {
-      company: 'Web Design Studio',
-      position: 'Front-End Developer Intern',
-      duration: 'Summer 2021',
+      company: 'TOTVS',
+      position: 'Desenvolvedor de Software',
+      duration: 'Fev 2023 - Abr 2024',
     },
     {
-      company: 'E-commerce Startup',
-      position: 'Freelance Web Developer',
-      duration: '2020 - 2021',
-    },
-    {
-      company: 'Tech Academy',
-      position: 'Teaching Assistante',
-      duration: '2019 - 2020',
-    },
-    {
-      company: 'Digital Agency',
-      position: 'UI/UX Designer',
-      duration: '2018 - 2019',
-    },
-    {
-      company: 'Software Development Firm',
-      position: 'Junior Developer',
-      duration: '2017 - 2018',
+      company: 'Eco Services',
+      position: 'Desenvolvedor de Software',
+      duration: 'Jan 2021 - Fev 2022',
     },
   ],
 }
 
 const education = {
   icon: '/assets/resume/cap.svg',
-  title: 'My education',
+  title: 'Minha educação',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluiptates quibusdam, sunt explicabo inventore.',
+    'Construí uma base sólida para atuar na área de desenvolvimento por meio da faculdade e ensino técnico, busco continuamente novos conhecimentos e me manter atualizado.',
   items: [
     {
       institution: 'FIAP',
-      degree: 'Analise e Desenvolvimento de Sistemas',
+      degree: 'Análise e Desenvolvimento de Sistemas',
       duration: '2021-2023',
     },
     {
       institution: 'ETEC de Sao Paulo (ETESP)',
-      degree: 'Tecnico em informatica',
+      degree: 'Técnico em Informática',
       duration: '2012-2014',
     },
     {
-      institution: 'Online Course',
-      degree: 'Programming Course',
-      duration: '2020 - 2021',
+      institution: 'Codecademy',
+      degree: 'Javascript Course',
+      duration: '2021',
     },
     {
-      institution: 'Tech Institute',
-      degree: 'Certified Web Developer',
-      duration: '2019',
-    },
-    {
-      institution: 'Design School',
-      degree: 'Diploma in Graphic Design',
-      duration: '2016 - 2018',
-    },
-    {
-      institution: 'Community College',
-      degree: 'Associate Degree in Computer Science',
-      duration: '2014 - 2016',
+      institution: 'Codecademy',
+      degree: 'SQL Course',
+      duration: '2021',
     },
   ],
 }
 
 const skills = {
-  title: 'My skills',
+  title: 'Minhas habilidades',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluiptates quibusdam, sunt explicabo inventore.',
+    'Especializado em desenvolvimento backend, tenho experiência na criação de APIs robustas e escaláveis, integrando bancos de dados e soluções de cloud. ',
   skillList: [
     {
       name: 'html 5',
@@ -214,10 +189,10 @@ export default function Resume() {
           className="flex flex-col gap-[60px] xl:flex-row"
         >
           <TabsList className="mx-auto flex w-full max-w-[380px] flex-col gap-6 xl:mx-0">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About Me</TabsTrigger>
+            <TabsTrigger value="experience">Experiência</TabsTrigger>
+            <TabsTrigger value="education">Educação</TabsTrigger>
+            <TabsTrigger value="skills">Habilidades</TabsTrigger>
+            <TabsTrigger value="about">Sobre mim</TabsTrigger>
           </TabsList>
 
           <div className="min-h-[70vh] w-full">
